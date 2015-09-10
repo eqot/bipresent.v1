@@ -15,7 +15,7 @@
   },
   "scripts": {
     "test": "xo",
-    "start": "electron .",
+    "start": "./node_modules/.bin/electron .",
     "build": "electron-packager . $npm_package_productName --out=dist --ignore='^/dist$' --prune --asar --all --version=0.31.1"
   },
   "files": [
