@@ -15,8 +15,12 @@ function createMainWindow() {
 	const win = new BrowserWindow({
 		width: 600,
 		height: 400,
-		resizable: false
+		resizable: true,
+		transparent: true,
+		frame: true,
+		"always-on-top": true,
 	});
+	// win.maximize();
 
 	win.loadUrl(`file://${__dirname}/index.html`);
 	win.on('closed', onClosed);
