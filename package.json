@@ -27,12 +27,12 @@
     "electron-app"
   ],
   "dependencies": {
-    "electron-debug": "^0.1.1"
+    "electron-debug": "^0.2.0"
   },
   "devDependencies": {
     "electron-packager": "^5.0.0",
-    "electron-prebuilt": "^0.31.1",
-    "xo": "^0.7.1"
+    "electron-prebuilt": "^0.32.1",
+    "xo": "^0.8.0"
   },
   "xo": {
     "esnext": true,
